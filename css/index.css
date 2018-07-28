@@ -1,0 +1,30 @@
+body {
+    max-width: 980px;
+    margin: auto;
+    
+    background: #933EC5;  
+    background: -webkit-linear-gradient(to left, #8E2DE2, #933EC5, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8E2DE2, #933EC5, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*color: lime;*/
+    /*font-size: 40px;*/
+    /*font-weight: bold;*/
+    text-shadow: 1px 0px 5px rgba(255,255,255,0.7);
+    /*text-shadow: 0px 0px 10px rgba(255,255,255,0.7);*/
+
+}
+
+/*lang*/
+p {
+    font-size: 130%; /* Размер текста */ 
+   }
+   q:lang(de) {
+    quotes: "\201E" "\201C"; /* Вид кавычек для немецкого языка */ 
+   }
+   q:lang(en) {
+    quotes: "\201C" "\201D"; /* Вид кавычек для английского языка */ 
+   }
+   q:lang(fr), q:lang(ru) { /* Вид кавычек для русского и французского языка */ 
+    quotes: "\00AB" "\00BB"; 
+   }
+/*lang end*/
