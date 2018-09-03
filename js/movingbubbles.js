@@ -9,7 +9,7 @@
 var bubbleOptions = {
 	maxBubbles     : 250,   //A bubble ceiling, for high resolution monitors
 	timer          : -1,    //The interval time
-	tick           : 1,   //The tick speed
+	tick           : 50,   //The tick speed
 	bubbles        : [],    //The array of bubbles
 	hue            : 188,   //The hue
 	hueRand        : 20,    //The hue variance
